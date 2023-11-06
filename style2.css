@@ -1230,6 +1230,13 @@ details[open] summary:after {
 
 @media (max-width:800px){
 
+    .body{
+        overflow-x: hidden;
+    }
+    .menu{
+        display: none;
+    }
+  
      
      .menu-content{
         padding-left: 5rem;
@@ -1262,7 +1269,7 @@ details[open] summary:after {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding-left: 10rem;
+        padding-left: 5rem;
      }
      
     .page-content2 {
@@ -1335,10 +1342,7 @@ details[open] summary:after {
         margin-left: 0;
     }
     .list-two {
-        margin-left: 2.5rem;
-    }
-    .list-tree {
-        margin-left: 4.5rem;
+        margin-left: 0rem;
     }
 
    .button-table3{
@@ -1375,8 +1379,12 @@ details[open] summary:after {
         flex-direction: column;
      }
   
+     .text-champions {
+        display: flex;
+        text-align: center;
+     }
     .champion-image img{
-        width: 48rem;
+        width: 30rem;
         height: auto;
     }
     .section-6{
@@ -1391,7 +1399,7 @@ details[open] summary:after {
         padding-left: 8rem;
     }
     .top-geral{
-      margin-top: -12rem;
+      margin-top: -30rem;
     }
   .top-geral, .top-one {
     display: flex;
@@ -1407,7 +1415,7 @@ details[open] summary:after {
     }
     .subtitle-final h2{
         display: flex;
-        justify-content: center;
+        text-align: center;
         font-size: 2.5rem;
     }
 
